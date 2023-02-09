@@ -1,0 +1,69 @@
+
+@import "./css/header.css";
+@import "./css/introducao.css";
+@import "./css/planos.css";
+@import "./css/esportes.css";
+@import "./css/footer.css";
+@import "./esportes/musculacao.css";
+		 /* COMPONTENTES */
+@import "./componentes/container.css";
+@import "./componentes/tipografia.css";
+.body-bg{
+	margin: 0px;
+}
+
+h1,ul,li,p{
+	margin: 0px;
+}
+img{
+	max-width: 100%;
+	object-fit: cover;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.box{
+		box-shadow: inset 0 -120px #ffffff;
+}
+.box-introducao{
+	box-shadow: inset 0 -120px #111111;
+}
+
+img{
+	max-width: 100%;
+	object-fit: cover;
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+.titulo-bg{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #141414;
+}
+
+
+
+.titulo p{
+	margin-bottom: 4px;
+}
+@media (max-width:800px){
+	.titulo-bg{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.titulo P{
+		font-size: 1rem;
+		text-transform: lowercase;
+		font-weight: 400;
+	}
+}
